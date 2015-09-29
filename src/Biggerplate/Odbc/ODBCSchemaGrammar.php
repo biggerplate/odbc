@@ -1,4 +1,5 @@
-<?php namespace TCK\Odbc;
+<?php
+namespace Biggerplate\Odbc;
 
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Schema\Blueprint;

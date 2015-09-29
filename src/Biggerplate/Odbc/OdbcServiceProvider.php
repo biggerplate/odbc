@@ -1,4 +1,4 @@
-<?php namespace TCK\Odbc;
+<?php namespace Biggerplate\Odbc;
 
 use Illuminate\Support\ServiceProvider;
 

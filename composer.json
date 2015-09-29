@@ -1,11 +1,15 @@
 {
-    "name": "tck/odbc",
+    "name": "biggerplate/odbc",
     "description": "ODBC Connector for Laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "tck",
             "email": "ben@thecreativekind.co.uk"
+        },
+        {
+            "name": "Robert Pitt",
+            "email": "rob@biggerplate.com"
         }
     ],
     "require": {
@@ -14,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "TCK\\Odbc": "src/"
+            "Biggerplate\\Odbc": "src/"
         }
     },
     "minimum-stability": "stable"
