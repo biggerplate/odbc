@@ -2,6 +2,7 @@
 namespace Biggerplate\Odbc;
 
 use Illuminate\Database\Connection;
+use Illuminate\Database\Query\Grammars\SqlServerGrammar;
 
 class ODBCConnection extends Connection {
 
@@ -12,7 +13,7 @@ class ODBCConnection extends Connection {
 	 */
 	protected function getDefaultQueryGrammar()
 	{
-		return $this->withTablePrefix( new ODBCQueryGrammar );
+		return $this->withTablePrefix( new SqlServerGrammar );
 	}
 
 	/**
@@ -24,5 +25,4 @@ class ODBCConnection extends Connection {
 	{
 		return $this->withTablePrefix( new ODBCSchemaGrammar );
 	}
-
 }
